@@ -18,7 +18,7 @@
 ### IP não é a única tecnologia de protocolo que compõe a internet.
 
 #### No protocolo TCP/IP existem 5 camadas principais:
-##Aplicação
+## Aplicação
 - telnet
 - FTP
 - DHCP
@@ -32,13 +32,36 @@
 - TCP
 - UDP
 
-## Internet
+## Internet 
 - ICPM
 - ARP
 - RARP
 - IP
 
-# Interface
+## Interface
+
+
+# Máscara de subrede - Subnet Mask
+
+### É um número binário que é usado para identificar a rede e o host de um endereço IP
+### O número de bits 1 na máscara de subrede representa o número de bits na rede e o número de bits 0 representa o número de bits no host.
+
+
+
+### Exemplo:
+
+| Endereço IP | Máscara de subrede | Rede | Host |
+| ----------- | ------------------ | ---- | ---- |
+|
+| 10101010.11111111.00000000.00001111 | 11111111.11111111.11111111.00000000 | 10101010.11111111.00000000.00000000 | 00000000.00000000.00000000.00001111 |
+| 10101010.11111111.00000000.00001111 | 11111111.11111111.00000000.00000000 | 10101010.11111111.00000000.00000000 | 00000000.00000000.00001111.00000000 |
+| 10101010.11111111.00000000.00001111 | 11111111.11111111.11111111.11111111 | 10101010.11111111.00000000.00000000 | 00000000.00000000.00000000.00000000 |
+| 10101010.11111111.00000000.00001111 | 11111111.11111111.11111111.11110000 | 10101010.11111111.00000000.00000000 | 00000000.00000000.00000000.00001111 |
+| 10101010.11111111.00000000.00001111 | 11111111.11111111.11111111.11111100 | 10101010.11111111.00000000.00000000 | 00000000.00000000.00000000.00001100 |
+| 10101010.11111111.00000000.00001111 | 11111111.11111111.11111111.11111110 | 10101010.11111111.00000000.00000000 | 00000000.00000000.00000000.00001110 |
+| 10101010.11111111.00000000.00001111 | 11111111.11111111.11111111.11111111 | 10101010.11111111.00000000.00000000 | 00000000.00000000.00000000.00001111 |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O8DmpmBMUSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
